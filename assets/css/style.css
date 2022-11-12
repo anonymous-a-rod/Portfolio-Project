@@ -66,8 +66,9 @@ h6,
 }
 
 .item {
-  border: none;
   margin-bottom: 30px;
+  padding: 0px 15px;
+  overflow: hidden;
 }
 
 .item .item-wrap {
