@@ -98,44 +98,21 @@
 
           <div class="row">
             <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
-              <form
-                name="contact"
-                method="POST"
-                data-netlify="true"
-                class="php-email-form"
-              >
+              <form name="contact" method="POST" data-netlify="true">
                 <div class="row gy-3">
                   <div class="col-md-6 form-group">
-                    <label for="name">Name</label>
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      required
-                    />
+                    <label>Name</label>
+                    <input type="text" class="form-control" required />
                   </div>
 
                   <div class="col-md-6 form-group">
-                    <label for="name">Email</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      required
-                    />
+                    <label>Email</label>
+                    <input type="email" class="form-control" required />
                   </div>
 
                   <div class="col-md-12 form-group">
-                    <label for="name">Subject</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      id="subject"
-                      required
-                    />
+                    <label>Subject</label>
+                    <input type="text" class="form-control" required />
                   </div>
 
                   <div class="col-md-12 form-group">
@@ -155,6 +132,22 @@
                     </button>
                   </div>
                 </div>
+              </form>
+
+              <form name="contact2" method="POST" data-netlify="true">
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
               </form>
             </div>
 
