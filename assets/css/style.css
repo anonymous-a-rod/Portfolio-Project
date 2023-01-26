@@ -525,4 +525,14 @@ h6,
   color: #000;
 }
 
+.about-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
 
+.about-btn {
+  padding: 0 8px;
+
+}
