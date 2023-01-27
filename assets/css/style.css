@@ -479,7 +479,7 @@ h6,
   background-color: #eceff2;
 }
 
- .projects, .item-wrap{
+ .projects, .item-wrap, .item-wrap:hover{
   border-radius: 80px; 
   border: 0.1px solid black;
   -webkit-box-shadow: 1.5px 1.5px 7px 0px rgba(0, 0, 0, 1);
